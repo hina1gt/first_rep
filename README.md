@@ -1,15 +1,39 @@
+# First GUI app
 
-# README
+- Guide for maintain an app
 
-Hi, I'm Genjebaeva Mahina 
+```
+    pip install virtualenv
+```
 
+- Create a folder
+```
+    mkdir gui && cd gui
+```
 
-## 🚀 About Me
-I'm a newbie in programming field
+- then, you should create & activate virtualenv
+```
+    virtualenv venv
+```
 
+- for Windows 
+```
+    source venv/Scripts/activate
+```
 
-## Other Common Github Profile Sections
+- for Linux/MacOS 
+```
+    source venv/bin/activate
+```
+- In order to use please install these lines of code on your PC
 
-🧠 I'm currently  studing Python Development
+```
+    pip install PyQt5
+    pip install pyqt5-tools
+```
 
-🌱 I hope in the near future I will become a great developer
+- Run 
+
+```
+    python main.py
+```
